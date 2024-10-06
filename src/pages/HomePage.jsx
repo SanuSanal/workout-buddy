@@ -100,7 +100,7 @@ function HomePage() {
                                 let workout = workouts.find(w => w.key === workoutKey);
                                 return (
                                     <div className="col-md-4 mb-4" key={index}>
-                                        <Link to={`/workout/${workout.key}`}>
+                                        <Link to={`/item/${workout.key}`}>
                                             <div className="card h-100">
                                                 <img src={workout.thumbnail} className="card-img-top" alt={workout.title} />
                                                 <div className="card-body text-center">
