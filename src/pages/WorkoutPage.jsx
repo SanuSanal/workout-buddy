@@ -23,7 +23,7 @@ function WorkoutPage() {
             <div className="col-lg-8">
               <div className="ratio ratio-16x9">
                 <iframe
-                  src={`https://www.youtube.com/embed/${workout.videoId}?autoplay=1`}
+                  src={`https://www.youtube.com/embed/${workout.videoId}`}
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

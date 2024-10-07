@@ -5,9 +5,9 @@ export const WorkoutContext = createContext();
 export const WorkoutProvider = ({ children }) => {
     const [selectedGender, setSelectedGender] = useState('');
     const [dropdownValue, setDropdownValue] = useState(0);
-    const [selectedDays, setSelectedDays] = useState(0);
+    const [selectedDays, setSelectedDays] = useState(6);
     const [workoutList, setWorkoutList] = useState([]);
-    const [currentDay, setCurrentDay] = useState(1);
+    const [currentDay, setCurrentDay] = useState(0);
 
   return (
     <WorkoutContext.Provider

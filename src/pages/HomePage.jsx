@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { WorkoutContext } from "../context/WorkoutProvider";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,20 +9,6 @@ function HomePage() {
     const { selectedGender, setSelectedGender, dropdownValue, setDropdownValue,
         selectedDays, setSelectedDays, workoutList, setWorkoutList,
         currentDay, setCurrentDay } = useContext(WorkoutContext);
-
-    // const workouts = [
-    //     { title: 'Push-ups', image: 'https://via.placeholder.com/150', sets: '3 sets of 15' },
-    //     { title: 'Squats', image: 'https://via.placeholder.com/150', sets: '3 sets of 20' },
-    //     { title: 'Push-ups', image: 'https://via.placeholder.com/150', sets: '3 sets of 15' },
-    //     { title: 'Squats', image: 'https://via.placeholder.com/150', sets: '3 sets of 20' },
-    //     { title: 'Push-ups', image: 'https://via.placeholder.com/150', sets: '3 sets of 15' },
-    //     { title: 'Squats', image: 'https://via.placeholder.com/150', sets: '3 sets of 20' },
-    //     { title: 'Push-ups', image: 'https://via.placeholder.com/150', sets: '3 sets of 15' },
-    //     { title: 'Squats', image: 'https://via.placeholder.com/150', sets: '3 sets of 20' },
-    //     { title: 'Push-ups', image: 'https://via.placeholder.com/150', sets: '3 sets of 15' },
-    //     { title: 'Squats', image: 'https://via.placeholder.com/150', sets: '3 sets of 20' },
-    //     // Add more workouts
-    // ];
 
     const handleGenderSelect = (gender) => {
         setSelectedGender(gender);
@@ -40,14 +26,22 @@ function HomePage() {
 
     const handleDayClick = (day) => {
         setCurrentDay(day);
-        let workouts = workoutPlan.find(wPlan => wPlan.plan === `${selectedDays}-days`).daySplit[day - 1];
-        setWorkoutList(workouts);
+        if (day != 0) {
+            let workouts = workoutPlan.find(wPlan => wPlan.plan === `${selectedDays}-days`).daySplit[day - 1];
+            setWorkoutList(workouts);
+        } else {
+            setWorkoutList(['jumping-jacks', 'high-knees', 'arm-circles', 'bodyweight-squats', 'leg-swings']);
+        }
     };
+
+    useEffect(() => {
+        setWorkoutList(['jumping-jacks', 'high-knees', 'arm-circles', 'bodyweight-squats', 'leg-swings']);
+    }, []);
 
     return (
         <div className="container mt-5">
             {/* Gender Selection */}
-            <div className="text-center mb-4">
+            {/* <div className="text-center mb-4">
                 <button
                     className={`btn btn-lg mx-2 ${selectedGender === 'men' ? 'btn-primary' : 'btn-outline-primary'}`}
                     onClick={() => handleGenderSelect('men')}
@@ -60,10 +54,10 @@ function HomePage() {
                 >
                     Women
                 </button>
-            </div>
+            </div> */}
 
             {/* Days Dropdown */}
-            {selectedGender && (
+            {/* {selectedGender && (
                 <div className="text-center mb-4">
                     <label htmlFor="days" className="form-label">How many days do you want to work out in a week?</label>
                     <select id="days" value={dropdownValue} className="form-select w-25 mx-auto" onChange={handleDaysChange}>
@@ -73,7 +67,11 @@ function HomePage() {
                         <option value="6">6 days</option>
                     </select>
                 </div>
-            )}
+            )} */}
+
+            <div className="text-center mb-4">
+                <h3>My Workout Routine</h3>
+            </div>
 
             {/* Days Navigation and Workouts */}
             {selectedDays > 0 && (
@@ -81,6 +79,12 @@ function HomePage() {
                     {/* Days Navigation */}
                     <div className="col-md-3 mb-3">
                         <div className="list-group">
+                            <button
+                                className={`list-group-item list-group-item-action ${currentDay === 0 ? 'active' : ''}`}
+                                onClick={() => handleDayClick(0)}
+                            >
+                                    Warm-up
+                            </button>
                             {[...Array(selectedDays)].map((_, index) => (
                                 <button
                                     key={index}
