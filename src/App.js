@@ -4,6 +4,7 @@ import { Navigate, Route, HashRouter as Router, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage';
 import WorkoutPage from './pages/WorkoutPage';
 import { WorkoutProvider } from './context/WorkoutProvider';
+import WorkoutRoutine from './pages/alternate';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          {/* <Route path='/' element={<WorkoutRoutine />} /> */}
           <Route path="/item/:title" element={<WorkoutPage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>

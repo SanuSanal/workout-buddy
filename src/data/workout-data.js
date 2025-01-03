@@ -2,7 +2,6 @@ const workouts = [
     {
         key: 'bench-press-bar',
         title: 'Bench Press (Barbell)',
-        thumbnail: 'https://fitwill.app/cdn-cgi/image/width=2048,quality=75,format=auto/https://fitwill.app/api/image/0025?w=1024&h=576',
         videoId: 'SCVCLChPQFY',
         sets: '3 to 4 sets of 8–12 reps',
         caloriesBurned: '50–70',
@@ -25,7 +24,6 @@ const workouts = [
     {
         key: 'incline-dumbbell-press',
         title: 'Incline Dumbbell Press',
-        thumbnail: 'https://fitwill.app/cdn-cgi/image/width=2048,quality=75,format=auto/https://fitwill.app/api/image/0314?w=1024&h=576',
         videoId: 'IP4oeKh1Sd4',
         sets: '3 to 4 sets of 8–12 reps',
         caloriesBurned: '40–60',
@@ -49,7 +47,6 @@ const workouts = [
     {
         key: 'dips',
         title: 'Dips (Chest-focused)',
-        thumbnail: 'https://fitnessvolt.com/wp-content/uploads/2021/12/Chest-Dips-vs-Triceps-Dips.jpg',
         videoId: 'dX_nSOOJIsE',
         sets: '3 to 4 sets of 8–12 reps',
         caloriesBurned: '40–60',
@@ -72,7 +69,6 @@ const workouts = [
     {
         key: 'overhead-tricep-extension',
         title: 'Overhead Tricep Extension (Dumbbell)',
-        thumbnail: 'https://www.endomondo.com/wp-content/uploads/2024/01/Seated-Dumbbell-Overhead-Tricep-Extension-1.jpg',
         videoId: '7h3lG2WnLXg',
         sets: '3 to 4 sets of 10–15 reps',
         caloriesBurned: '20–40',
@@ -96,7 +92,6 @@ const workouts = [
     {
         key: 'triceps-dips',
         title: 'Triceps Dips',
-        thumbnail: 'https://www.burnthefatinnercircle.com/members/images/1084b.jpg?cb=20240911131623',
         videoId: 'oA8Sxv2WeOs',
         sets: '3 to 4 sets of 8–12 reps',
         caloriesBurned: '30–50',
@@ -119,7 +114,6 @@ const workouts = [
     {
         key: 'chest-flyes',
         title: 'Chest Flyes (Dumbbell Flyes)',
-        thumbnail: 'https://www.inspireusafoundation.org/wp-content/uploads/2022/02/dumbbell-chest-fly-benefits.jpg',
         videoId: 'Nhvz9EzdJ4U',
         sets: '3 to 4 sets of 10–15 reps',
         caloriesBurned: '30–50',
@@ -142,32 +136,6 @@ const workouts = [
     {
         key: 'tricep-pushdown',
         title: 'Tricep Pushdowns (Cable Machine)',
-        thumbnail: 'https://miro.medium.com/v2/resize:fit:1024/0*0-Iud5MOCE-ETybM.jpg',
-        videoId: 'LXkCrxn3caQ',
-        sets: '3 to 4 sets of 10–15 reps',
-        caloriesBurned: '20–40',
-        instructions: `
-- **Setup:** Attach a straight bar, V-bar, or rope to the high pulley of a cable machine. Stand facing the machine with feet shoulder-width apart, gripping the attachment with palms facing down (overhand grip) for a bar or neutral grip for a rope.
-- **Form:**
-    - Keep your elbows tucked close to your sides, with your forearms parallel to the floor.
-    - Your back should be straight, core engaged, and knees slightly bent for stability.
-- **Execution:**
-    - Push the bar/rope down by extending your elbows until your arms are fully straight.
-    - Pause briefly at the bottom, squeezing your triceps.
-    - Slowly return to the starting position, allowing your forearms to come back up.
-- **Breathing:** Exhale as you push the bar/rope down, inhale as you bring it back up.
-        `,
-        pointsToNote: `
-- **Elbow Positioning:** Keep your elbows stationary and close to your sides throughout the movement. Letting them flare out reduces tension on the triceps.
-- **Control:** Don’t let the weight pull your arms up too quickly during the return motion. Maintain a controlled, slow movement to engage the triceps properly.
-- **Shoulder Engagement:** Don’t use your shoulders or back to push the weight down. The focus should be entirely on the triceps.
-- **Leaning Forward:** Avoid excessive leaning or swinging your body for momentum.
-        `
-    },
-    {
-        key: 'tricep-pushdown',
-        title: 'Tricep Pushdowns (Cable Machine)',
-        thumbnail: 'https://fitwill.app/api/image/1227?p=1&w=1024&h=1024',
         videoId: 'LXkCrxn3caQ',
         sets: '3 to 4 sets of 10–15 reps',
         caloriesBurned: '20–40',
@@ -192,7 +160,6 @@ const workouts = [
 {
     "key": "deadlifts",
     "title": "Deadlifts",
-    "thumbnail": "https://www.evolvefitstudios.com/uploads/1/0/2/9/102951852/deadlifts_orig.jpeg",
     "videoId": "r4MzxtBKyNE",
     "sets": "3 to 4 sets of 5–8 reps",
     "caloriesBurned": "100–150",
@@ -218,7 +185,6 @@ const workouts = [
 {
     "key": "lat-pulldowns",
     "title": "Lat Pulldowns (Cable Machine)",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=2048,quality=75,format=auto/https://fitwill.app/api/image/0197?w=1024&h=576",
     "videoId": "JGeRYIZdojU",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "30–50",
@@ -243,7 +209,6 @@ const workouts = [
 {
     "key": "barbell-rows",
     "title": "Barbell Rows",
-    "thumbnail": "https://training.fit/wp-content/uploads/2020/02/rudern-langhantel.png",
     "videoId": "FWJR5Ve8bnQ",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "50–80",
@@ -267,7 +232,6 @@ const workouts = [
 {
     "key": "seated-row",
     "title": "Seated Row (Cable Machine)",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2017/02/straight-back-seated-cable-row-resized-1.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "vwHG9Jfu4sw",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "30–50",
@@ -291,7 +255,6 @@ const workouts = [
 {
     "key": "barbell-curls",
     "title": "Barbell Curls",
-    "thumbnail": "https://liftmanual.com/wp-content/uploads/2023/04/ez-barbell-curl.jpg",
     "videoId": "kwG2ipFRgfo",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–30",
@@ -314,7 +277,6 @@ const workouts = [
 {
     "key": "hammer-curls",
     "title": "Hammer Curls (Dumbbells)",
-    "thumbnail": "https://www.dmoose.com/cdn/shop/articles/main_image_4046fed6-df98-4f5b-a6d5-65eb6dafcf76.jpg?v=1671885031",
     "videoId": "OPqe0kCxmR8",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–30",
@@ -337,7 +299,6 @@ const workouts = [
 {
     "key": "21s-ez-bar",
     "title": "21s (EZ Bar Curls)",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=3840,quality=75,format=auto/https://fitwill.app/api/image/1458?w=1024&h=576",
     "videoId": "gIL7f7Ljb9A",
     "sets": "3 sets of 21 reps (7 reps each range of motion)",
     "caloriesBurned": "25–40",
@@ -361,7 +322,6 @@ const workouts = [
 {
     "key": "front-squat",
     "title": "Front Squat",
-    "thumbnail": "https://training.fit/wp-content/uploads/2020/03/kniebeugen-langhantel-vorne.png",
     "videoId": "uYumuL_G_V0",
     "sets": "3 to 4 sets of 6–10 reps",
     "caloriesBurned": "80–120",
@@ -384,7 +344,6 @@ const workouts = [
 {
     "key": "lunges",
     "title": "Lunges",
-    "thumbnail": "https://trainingstation.co.uk/cdn/shop/articles/Lunges-movment_900x.webp?v=1719507455",
     "videoId": "tTej-ax9XiA",
     "sets": "3 to 4 sets of 10–12 reps per leg",
     "caloriesBurned": "40–70",
@@ -407,7 +366,6 @@ const workouts = [
 {
     "key": "leg-press",
     "title": "Leg Press (Machine)",
-    "thumbnail": "https://weighttraining.guide/wp-content/uploads/2016/05/Sled-45-degree-Leg-Press-resized.png",
     "videoId": "q4W4_VJbKW0",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "50–80",
@@ -429,8 +387,7 @@ const workouts = [
 {
     "key": "calf-raises",
     "title": "Calf Raises",
-    "thumbnail": "https://liftmanual.com/wp-content/uploads/2023/04/bodyweight-standing-calf-raise.jpg",
-    "videoId": "k8ipHzKeAkQ",
+    "videoId": "H1b_tKeq3Us",
     "sets": "3 to 4 sets of 15–20 reps",
     "caloriesBurned": "20–30",
     "instructions": `
@@ -451,7 +408,6 @@ const workouts = [
 {
     "key": "overhead-press-bar",
     "title": "Overhead Press (Barbell)",
-    "thumbnail": "https://www.endomondo.com/wp-content/uploads/2024/03/Standing-Barbell-Overhead-Press-.jpg",
     "videoId": "KP1sYz2VICk",
     "sets": "3 to 4 sets of 8–10 reps",
     "caloriesBurned": "40–60",
@@ -473,7 +429,6 @@ const workouts = [
 {
     "key": "lateral-raises",
     "title": "Lateral Raises (Dumbbells)",
-    "thumbnail": "https://www.burnthefatinnercircle.com/members/images/1758c.jpg?cb=20240911131654",
     "videoId": "PzsMitRdI_8",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–30",
@@ -495,7 +450,6 @@ const workouts = [
 {
     "key": "front-raises-dumbbells",
     "title": "Front Raises (Dumbbells)",
-    "thumbnail": "https://cdn-cccio.nitrocdn.com/sQAAylIpwgMYZgBLSXcMgCkUIbfIzHvb/assets/images/optimized/rev-88b5813/www.aleanlife.com/wp-content/uploads/2023/02/dumbbell-front-raise.jpg",
     "videoId": "zkP0MsTcIVU",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "20–30",
@@ -517,7 +471,6 @@ const workouts = [
 {
     "key": "dumbbell-bench-press",
     "title": "Dumbbell Bench Press",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/05/Dumbbell-Bench-Press-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "VmB1G1K7v94",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "40–70",
@@ -540,7 +493,6 @@ const workouts = [
 {
     "key": "decline-bench-press-bar",
     "title": "Decline Bench Press (Barbell)",
-    "thumbnail": "https://weighttraining.guide/wp-content/uploads/2016/10/Decline-Barbell-Bench-Press-resized.png",
     "videoId": "6yGZ0KCaiWM",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "40–70",
@@ -562,7 +514,6 @@ const workouts = [
 {
     "key": "incline-dumbbell-flye",
     "title": "Incline Dumbbell Flye",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2018/02/Incline-dumbbell-fly-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "JSDpq14vCZ8",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "30–50",
@@ -585,7 +536,6 @@ const workouts = [
 {
     "key": "peckdek-flye",
     "title": "Pec Deck Flye (Machine)",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/12/Machine-Fly-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "eGjt4lk6g34",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "30–50",
@@ -608,7 +558,6 @@ const workouts = [
 {
     "key": "tricep-kickbacks",
     "title": "Tricep Kickbacks (Dumbbells)",
-    "thumbnail": "https://weighttraining.guide/wp-content/uploads/2016/05/Dumbbell-Kickback-resized.png",
     "videoId": "m_UlDFNX4mk",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–40",
@@ -631,7 +580,6 @@ const workouts = [
 {
     "key": "close-grip-bench-press",
     "title": "Close-Grip Bench Press (Barbell)",
-    "thumbnail": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/close-grip-bench-benefits.jpg",
     "videoId": "DzA2xZhDGeo",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "40–70",
@@ -653,7 +601,6 @@ const workouts = [
 {
     "key": "bar-push-down",
     "title": "Bar Pushdown (Cable Machine)",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=2048,quality=75,format=auto/https://fitwill.app/api/image/1605?w=1024&h=576",
     "videoId": "32auHIqgEoM",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–40",
@@ -675,7 +622,6 @@ const workouts = [
 {
     "key": "pull-ups",
     "title": "Pull-Ups",
-    "thumbnail": "https://cdn.shopify.com/s/files/1/0705/5432/1194/files/mikolo-pull-ups-blog-2.png?v=1693468017",
     "videoId": "aAggnpPyR6E",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "50–70",
@@ -697,7 +643,6 @@ const workouts = [
 {
     "key": "t-bar-row",
     "title": "T-Bar Row",
-    "thumbnail": "https://weighttraining.guide/wp-content/uploads/2016/10/lever-t-bar-row-plate-loaded-resized.png",
     "videoId": "hYo72r8Ivso",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "50–80",
@@ -719,7 +664,6 @@ const workouts = [
 {
     "key": "dumbbell-pullover",
     "title": "Dumbbell Pullover",
-    "thumbnail": "https://cdn.shopify.com/s/files/1/0449/8453/3153/files/Dumbbell-Pullover-Muscles-Worked_600x600.jpg?v=1718935258",
     "videoId": "CSkSflHdC3A",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "30–50",
@@ -741,7 +685,6 @@ const workouts = [
 {
     "key": "concentration-curls",
     "title": "Concentration Curls",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=3840,quality=75,format=auto/https://fitwill.app/api/image/0297?w=1024&h=576",
     "videoId": "0AUGkch3tzc",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "20–40",
@@ -763,7 +706,6 @@ const workouts = [
 {
     "key": "preacher-curls",
     "title": "Preacher Curls",
-    "thumbnail": "https://liftmanual.com/wp-content/uploads/2023/04/ez-barbell-preacher-curl.jpg",
     "videoId": "sxA__DoLsgo",
     "sets": "3 to 4 sets of 10–12 reps",
     "caloriesBurned": "20–40",
@@ -785,7 +727,6 @@ const workouts = [
 {
     "key": "face-pulls",
     "title": "Face Pulls",
-    "thumbnail": "https://weighttraining.guide/wp-content/uploads/2016/10/Face-pull-resized.png",
     "videoId": "0Po47vvj9g4",
     "sets": "3 to 4 sets of 12–15 reps",
     "caloriesBurned": "20–40",
@@ -807,7 +748,6 @@ const workouts = [
 {
     "key": "shrugs",
     "title": "Shrugs (Dumbbells or Barbell)",
-    "thumbnail": "https://www.inspireusafoundation.org/wp-content/uploads/2021/11/dumbbell-shrug-benefits-1024x576.jpg",
     "videoId": "_t3lrPI6Ns4",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–40",
@@ -829,7 +769,6 @@ const workouts = [
 {
     "key": "squats",
     "title": "Squats (Barbell or Bodyweight)",
-    "thumbnail": "https://qph.cf2.quoracdn.net/main-qimg-36fc8629c5a33bacfca53eee3b8673db-lq",
     "videoId": "Dy28eq2PjcM",
     "sets": "3 to 4 sets of 8–12 reps",
     "caloriesBurned": "80–100",
@@ -851,7 +790,6 @@ const workouts = [
 {
     "key": "seated-leg-extensions",
     "title": "Seated Leg Extensions",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=3840,quality=75,format=auto/https://fitwill.app/api/image/3386?w=1024&h=576",
     "videoId": "Orxowest56U",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–40",
@@ -873,7 +811,6 @@ const workouts = [
 {
     "key": "leg-curls",
     "title": "Leg Curls",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/10/lying-leg-curl-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "n5WDXD_mpVY",
     "sets": "3 to 4 sets of 10–15 reps",
     "caloriesBurned": "20–40",
@@ -895,7 +832,6 @@ const workouts = [
 {
     "key": "seated-calf-raises",
     "title": "Seated Calf Raises",
-    "thumbnail": "https://cdn-0.weighttraining.guide/wp-content/uploads/2016/10/Lever-Seated-Calf-Raise-plate-loaded-resized.png?ezimgfmt=ng%3Awebp%2Fngcb4",
     "videoId": "1vpso8stntg",
     "sets": "3 to 4 sets of 15–20 reps",
     "caloriesBurned": "20–40",
@@ -917,7 +853,6 @@ const workouts = [
 {
     "key": "jumping-jacks",
     "title": "Jumping Jacks",
-    "thumbnail": "https://cdn.fitimg.in/blog_photo_9C8B8B99EFF2213111.png",
     "videoId": "2CUyDdztieE",
     "sets": "2 to 3 sets of 30–60 seconds",
     "caloriesBurned": "5–10",
@@ -936,7 +871,6 @@ const workouts = [
   {
     "key": "high-knees",
     "title": "High Knees",
-    "thumbnail": "https://i.pinimg.com/736x/94/bc/f0/94bcf0f1f6649036fc0d2b8b41c64cec.jpg",
     "videoId": "FvjmPRU3zn4",
     "sets": "2 to 3 sets of 30–60 seconds",
     "caloriesBurned": "5–10",
@@ -955,7 +889,6 @@ const workouts = [
   {
     "key": "arm-circles",
     "title": "Arm Circles",
-    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeMD1Ux1HllWV_Qdd8yaBYEFWTaF1QbRcYAw&s",
     "videoId": "wdsbVT4KzYs",
     "sets": "2 to 3 sets of 30 seconds in each direction",
     "caloriesBurned": "2–5",
@@ -974,7 +907,6 @@ const workouts = [
   {
     "key": "bodyweight-squats",
     "title": "Bodyweight Squats",
-    "thumbnail": "https://training.fit/wp-content/uploads/2020/03/kniebeugen-800x448.png",
     "videoId": "8uoaYwS6iFM",
     "sets": "2 to 3 sets of 10–15 reps",
     "caloriesBurned": "8–12",
@@ -994,7 +926,6 @@ const workouts = [
   {
     "key": "leg-swings",
     "title": "Leg Swings",
-    "thumbnail": "https://fitwill.app/cdn-cgi/image/width=3840,quality=75,format=auto/https://fitwill.app/api/image/3502?w=1024&h=576",
     "videoId": "MWJ36dnb0AM",
     "sets": "2 to 3 sets of 10–15 swings per leg",
     "caloriesBurned": "5–8",
@@ -1009,7 +940,136 @@ const workouts = [
 - **Control:** Avoid swinging too fast; focus on smooth and controlled movements.
 - **Engage Core:** Keep your core engaged to avoid losing balance.
     `
-  }
+  },
+  {
+    "key": "face-pulls",
+    "title": "Face Pulls",
+    "videoId": "0Po47vvj9g4",
+    "sets": "3 to 4 sets of 10–12 reps",
+    "caloriesBurned": "50–70",
+    "instructions": `
+- **Setup:** Attach a rope handle to a cable machine at upper-chest height.
+- **Form:**
+    - Grip the rope with both hands, palms facing inward, and step back so the weights are off the stack.
+    - Stand with your feet shoulder-width apart and knees slightly bent.
+- **Execution:**
+    - Pull the rope toward your face, keeping your elbows high and shoulders back.
+    - Pause when the rope reaches your face, squeezing your shoulder blades together.
+    - Slowly return to the starting position.
+- **Breathing:** Inhale as you pull the rope and exhale as you return to the start.
+    `,
+    "pointsToNote": `
+- **Elbow Position:** Keep elbows above the shoulders throughout the movement.
+- **Grip and Control:** Use a neutral grip and avoid jerking the rope.
+- **Range of Motion:** Pull until your hands are just in front of your face; do not overextend.
+    `
+},
+{
+    "key": "planks",
+    "title": "Planks",
+    "videoId": "ASdvN_XEl_c",
+    "sets": "3 sets of 30–60 seconds",
+    "caloriesBurned": "30–50 per set",
+    "instructions": `
+- **Setup:** Lie face down on the ground and position your elbows directly under your shoulders.
+- **Form:**
+    - Lift your body off the ground, forming a straight line from head to heels.
+    - Engage your core, glutes, and legs to maintain stability.
+- **Execution:**
+    - Hold this position without letting your hips sag or rise.
+- **Breathing:** Maintain steady breathing throughout the hold.
+    `,
+    "pointsToNote": `
+- **Sagging Hips:** Keep your hips aligned with the rest of your body.
+- **Neck Position:** Keep your neck neutral by looking down at the floor.
+- **Hold Duration:** Start with shorter holds and increase time as you build strength.
+    `
+},
+{
+    "key": "hanging-leg-raises",
+    "title": "Hanging Leg Raises",
+    "videoId": "JB2oyawG9KI",
+    "sets": "3 to 4 sets of 10–15 reps",
+    "caloriesBurned": "50–80",
+    "instructions": `
+- **Setup:** Hang from a pull-up bar with your hands slightly wider than shoulder-width apart.
+- **Form:**
+    - Keep your body straight and legs extended.
+    - Engage your core and grip the bar firmly.
+- **Execution:**
+    - Slowly lift your legs until they are parallel to the ground.
+    - Pause briefly at the top, then lower your legs in a controlled manner.
+- **Breathing:** Inhale as you lift your legs and exhale as you lower them.
+    `,
+    "pointsToNote": `
+- **Momentum:** Avoid swinging your legs; keep the movement controlled.
+- **Core Engagement:** Focus on engaging your core, not your hip flexors.
+- **Grip Strength:** Ensure a firm grip to prevent slipping.
+    `
+},
+{
+    "key": "russian-twists",
+    "title": "Russian Twists",
+    "videoId": "DJQGX2J4IVw",
+    "sets": "3 to 4 sets of 20 reps (10 per side)",
+    "caloriesBurned": "40–60",
+    "instructions": `
+- **Setup:** Sit on the ground with your knees bent and feet slightly elevated.
+- **Form:**
+    - Lean back slightly, keeping your back straight and core engaged.
+    - Hold a weight or clasp your hands together in front of you.
+- **Execution:**
+    - Twist your torso to one side, bringing the weight or hands toward the ground.
+    - Return to the center and twist to the opposite side.
+- **Breathing:** Exhale as you twist and inhale as you return to the center.
+    `,
+    "pointsToNote": `
+- **Back Position:** Keep your back straight and avoid rounding your spine.
+- **Twist Depth:** Rotate fully, ensuring your obliques are engaged.
+- **Foot Stability:** Keep your feet elevated or grounded based on comfort and skill level.
+    `
+},
+{
+    "key": "bicycle-crunches",
+    "title": "Bicycle Crunches",
+    "videoId": "9FGilxCbdz8",
+    "sets": "3 to 4 sets of 15–20 reps per side",
+    "caloriesBurned": "40–70",
+    "instructions": `
+- **Setup:** Lie flat on your back with your hands behind your head and legs extended.
+- **Form:**
+    - Lift your shoulders off the ground and bring one knee toward your chest.
+    - Simultaneously, twist your torso to bring the opposite elbow toward the knee.
+- **Execution:**
+    - Alternate sides in a pedaling motion, keeping your movements controlled.
+- **Breathing:** Exhale as you twist and inhale as you return to the center.
+    `,
+    "pointsToNote": `
+- **Neck Strain:** Avoid pulling on your neck with your hands.
+- **Control:** Focus on slow and deliberate movements.
+- **Range of Motion:** Ensure your elbow comes close to the opposite knee for maximum effect.
+    `
+},
+{
+    "key": "cat-cow-stretch",
+    "title": "Cat-Cow Stretch",
+    "videoId": "vuyUwtHl694",
+    "sets": "2 to 3 sets of 10–15 reps",
+    "caloriesBurned": "5–10",
+    "instructions": `
+- **Setup:** Start on all fours with your wrists directly beneath your shoulders and your knees beneath your hips. Keep your spine neutral and your head aligned with your back.
+- **Form:**
+    - Inhale and drop your belly towards the floor, lifting your head and tailbone toward the ceiling (this is the "Cow" position).
+    - Exhale and round your back, tucking your chin towards your chest and pulling your belly button towards your spine (this is the "Cat" position).
+    - Continue moving between these two positions, following your breath.
+- **Breathing:** Inhale as you arch your back and look up (Cow), exhale as you round your back and tuck your chin (Cat).
+    `,
+    "pointsToNote": `
+- **Spinal Mobility:** Focus on moving your spine in a fluid, controlled manner to improve flexibility and mobility.
+- **Neck Alignment:** Avoid straining your neck; keep your head in line with your spine during both positions.
+- **Breathing:** Match the movements with your breath to maximize the stretch and create a rhythm.
+    `
+}
 ];
 
 export default workouts;
