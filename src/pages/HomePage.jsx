@@ -18,8 +18,8 @@ function HomePage() {
         // setChecked(event.target.checked);
         console.log("value");
         console.log(event.target.checked);
-
-        let plan = event.target.checked ? 'focus-routine' : 'full-body';
+// TODO: fix this
+        let plan = event.target.checked ? 'focus-routine' : 'focus-routine';
         // setRoutine(plan);
         console.log(plan);
         let workouts = workoutPlan.find(wPlan => wPlan.plan === plan).daySplit[0];
